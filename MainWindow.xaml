@@ -1,0 +1,19 @@
+﻿<Window x:Class="CSharp_OperatorOverriding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSharp_OperatorOverriding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF9C7C7C">
+        <RichTextBox Height="NaN" Margin="106,12,81,12" Width="NaN">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="runPointDisplay" Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>
